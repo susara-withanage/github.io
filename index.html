@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The KIOSK - University of Peradeniya</title>
+    <link rel="icon" type="image/png" href="resources/image-32x32.jpg" />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    body {
+      background-image: url(resources/main-image.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+
+  <body>
+    <div class="loader-container">
+      <img
+        src="https://i.pinimg.com/originals/dc/66/53/dc6653448a617b0564541708101d3eac.gif"
+        alt=""
+      />
+    </div>
+
+    <style>
+      .loader-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 7000;
+        background: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      .loader-container.fade-out {
+        top: -120%;
+      }
+    </style>
+
+    <script>
+      function loader() {
+        document.querySelector(".loader-container").classList.add("fade-out");
+      }
+
+      function fadeOut() {
+        setInterval(loader, 6000);
+      }
+
+      window.addEventListener("load", fadeOut);
+    </script>
+
+    <section id="#" class="body">
+      <div
+        class="home-text"
+        style="
+          background-image: linear-gradient(
+            rgba(9, 118, 7, 0.709),
+            rgba(88, 135, 19, 0.503)
+          );
+        "
+      >
+        <h1>THE KIOSK</h1>
+        <h3>
+          a cafe managed by<br />
+          students for students
+        </h3>
+        <textarea id="typing-text" readonly></textarea>
+        <p>
+          <!-- AT THE <br> FACULTY OF AGRICULTURE <br> UNIVERSITY OF PERADENIYA -->
+        </p>
+      </div>
+    </section>
+    <header id="header" class="">
+      <a href="#" class="logo logo-init">kiosk</a>
+      <div id="menu-bar" class="menu-bar">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+      <nav class="navbar">
+        <a class="link-button" href="#">home</a>
+        <a class="link-button" href="#book-a-table">book a table</a>
+        <a class="link-button" href="#restaurant-menu">restaurant menu</a>
+        <a class="link-button" href="#about">about</a>
+        <a class="link-button" href="#gallery">gallery</a>
+      </nav>
+    </header>
+    <div class="progress-bar-container">
+      <div class="progress-bar"></div>
+    </div>
+
+    <section id="book-a-table">
+      <div class="topic">
+        <br /><br />
+        <h2>BOOK A TABLE</h2>
+        <br /><br />
+      </div>
+      <div class="infor">
+        <div class="inline-left">
+          <div>
+            <h3>Opening Hours:</h3>
+            <p>
+              Monday - Fridat <br />
+              10.00 A.M. - 08.00 P.M.
+            </p>
+            <br /><br />
+            <h3>Additional Info:</h3>
+            <p style="text-transform: none">
+              <b>Phone : </b> +9470 367 3662 <br />
+              <b>Address : </b><br />
+              The KIOSK,Faculty of Agriculture,University of Peradeniya,
+              Peradeniya, Sri Lanka
+              <br />
+              <b>Email : </b>thekioskmarketing@gmail.com<br />
+              <br />
+            </p>
+          </div>
+          <img
+            class="infor-img img-animation-1"
+            src="resources/delicious-fried-chicken-plate.jpg"
+            alt=""
+          />
+        </div>
+        <div class="inline-right">
+          <link rel="stylesheet" href="css/form.css" />
+          <div class="form">
+            <form action="form.html" method="post">
+              <label for="table-size">Table Size:</label>
+              <input
+                type="number"
+                id="table-size"
+                name="table-size"
+                min="1"
+                max="10"
+                value="2"
+                required
+              />
+
+              <label for="day">Day:</label>
+              <input
+                type="date"
+                id="day"
+                name="day"
+                min="${new Date().toISOString().split('T')[0]}"
+                defaultValue="YYYY-MM-DD"
+                required
+              />
+              <span
+                id="error-msg-day"
+                style="color: var(--yellow); font-size: 16px"
+              ></span>
+              <br />
+              <label for="time" class="">Time:</label>
+              <input
+                class=""
+                type="time"
+                id="time"
+                name="time"
+                min="10:00"
+                max="20:00"
+                required
+                defaultValue="HH:MM"
+              />
+              <span
+                id="error-msg-time"
+                style="color: var(--yellow); font-size: 16px"
+              ></span>
+              <br />
+              <input
+                id="submit-btn"
+                type="button"
+                value="MAKE ORDER"
+                disabled
+              />
+            </form>
+          </div>
+          <script src="js/form.js"></script>
+        </div>
+      </div>
+    </section>
+    <link rel="stylesheet" href="css/menu.css" />
+    <section id="restaurant-menu">
+      <div class="topic">
+        <br /><br />
+        <h2 style="text-transform: uppercase">restaurant menu</h2>
+        <br /><br />
+      </div>
+      <div class="container">
+        <div class="filter">
+          <div class="search">
+            <input
+              type="search"
+              name="search-item"
+              id="search-item"
+              placeholder="Search Menu"
+              oninput="enabaleButton()"
+            />
+            <button id="search_button" onclick="getSearchResults()" disabled>
+              <span class="material-symbols-outlined"> search </span>
+            </button>
+          </div>
+          <div class="selector">
+            <select id="select_item_group" onchange="getSelectionResults()">
+              <option value="All">All</option>
+              <option value="Main Course Dishes">Main Course Dishes</option>
+              <option value="Dinner Special">Dinner Special</option>
+              <option value="Beverages">Beverages</option>
+              <option value="Short Eats">Short Eats</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div id="menu-items" class="items">
+          <!-- items -->
+        </div>
+      </div>
+      <script src="js/menu_.js"></script>
+    </section>
+    <section id="about">
+      <link rel="stylesheet" href="css/about.css" />
+      <div class="topic">
+        <br /><br />
+        <!-- <h2>ABOUT US</h2><br><br> -->
+      </div>
+      <!-- about -->
+      <div class="about_section">
+        <p class="text1">
+          "One Cannot Think Well, Love Well, Sleep Well, If One Has Not Dined
+          Well "
+        </p>
+        <p class="text2">-Virginia Woolf-</p>
+        <p class="text3">Don't worry!</p>
+        <p class="text3">
+          We have the answer for all your burning food desires
+        </p>
+        <p class="text4">➖➖➖➖➖➖➖➖➖➖</p>
+        <p class="text4">The Kiosk Restaurant</p>
+        <p class="text4">➖➖➖➖➖➖➖➖➖➖</p>
+        <p class="text3">A Cafe Managed by Students for Students</p>
+        <p class="text2">@ Faculty of Agriculture, University of Peradeniya.</p>
+        <p class="text3">The Kiosk-Beyond Good Food</p>
+      </div>
+    </section>
+    <section id="gallery">
+      <link rel="stylesheet" href="css/gallery.css" />
+      <div class="topic">
+        <br /><br />
+        <!-- <h2>GALLERY</h2><br><br> -->
+      </div>
+      <!-- gallery -->
+      <div id="slider-1" class="slider">
+        <div class="slide-container">
+          <div class="slider-body">
+            <a class="slides animated" style="display: flex">
+              <span class="slide-number">1/5</span>
+              <img src="resources/Slide/slide (1).jpg" alt="slide image" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <script src="js/gallery.js"></script>
+    </section>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/footer.css" />
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+          <h3>THE kiosk</h3>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                width="100%"
+                height="100%"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=the kiosk University of peradeniya&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://2yu.co">2yu</a><br />
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 100%;
+                  width: 100%;
+                }</style
+              ><a href="https://embedgooglemap.2yu.co/"
+                >html embed google map</a
+              >
+              <style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 100%;
+                  width: 100%;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#book-a-table">Book A Table</a>
+            </li>
+            <li>
+              <a href="#restaurant-menu">Restaurant Menu</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3>Subscribe For More Information</h3>
+          <div>
+            <input
+              type="email"
+              placeholder="Your email address here"
+              required
+            />
+            <button>Subscribe</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+9470 367 3662</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>thekioskmarketing@gmail.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>
+            The KIOSK,Faculty of Agriculture,University of Peradeniya,
+            Peradeniya, Sri Lanka
+          </p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2023 The kiosk | All Rights Reserved</p>
+      </div>
+    </footer>
+    <div id="notification-container"></div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

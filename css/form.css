@@ -1,0 +1,156 @@
+:root {
+  --italic-font: "Dancing Script", cursive;
+  --kiosk-font: "Julius Sans One", sans-serif;
+  --subheader-font: "PT Sans", sans-serif;
+  --main-font: "Signika Negative", sans-serif;
+
+  --grean: #43aa72;
+  --yellow: #ffe069;
+  --black: #010101;
+  --white: #fdfdfd;
+  --blue: #052d2e;
+  --disable-bg: rgba(86, 87, 88, 0.14);
+  --disable-font: rgba(77, 77, 77, 0.995);
+}
+
+form {
+  width: 40vw;
+  margin: 0 auto;
+  background-color: var(--white);
+  padding: 20%;
+  border-radius: 8%;
+  box-shadow: 0px 0px 10px 0px var(--grean);
+}
+
+label {
+  display: block;
+  margin-bottom: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+  display: block;
+  width: 100%;
+  padding: 4%;
+  margin-bottom: 4%;
+  font-size: 1vw;
+  border-radius: 15px;
+}
+
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus {
+  outline: none;
+}
+
+#submit-btn {
+  display: block;
+  background-color: var(--grean);
+  color: var(--yellow);
+  border: none;
+  border-radius: 10px;
+  padding: 1vw 2vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1s ease;
+  margin-left: 33%;
+}
+
+#submit-btn:disabled {
+  background-color: var(--disable-bg);
+  color: var(--disable-font);
+}
+#submit-btn:disabled:hover {
+  background-color: var(--disable-bg);
+  color: var(--disable-font);
+}
+
+#submit-btn:hover {
+  background-color: var(--black);
+  color: var(--grean);
+}
+
+.error-visible {
+  box-shadow: 0px 0px 15px 0px var(--yellown);
+  border: 2px solid var(--yellow);
+}
+
+.not-error-visible {
+  box-shadow: 0px 0px 15px 0px var(--grean);
+  border: 2px solid var(--grean);
+}
+
+@media screen and (max-width: 1024px) {
+  form {
+    width: 85vw;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 20%;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px 0px var(--grean);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="number"],
+  input[type="date"],
+  input[type="time"] {
+    display: block;
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 4%;
+    font-size: 3vw;
+    border-radius: 10px;
+  }
+
+  input[type="number"] {
+    box-shadow: 0px 0px 10px 0px var(--grean);
+  }
+
+  #submit-btn {
+    display: block;
+    background-color: var(--grean);
+    color: var(--yellow);
+    /* border: none; */
+    border-radius: 10px;
+    padding: 1vw 2vw;
+    font-size: 5vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    margin-left: 25%;
+  }
+
+  #submit-btn:disabled {
+    background-color: var(--disable-bg);
+    color: var(--disable-font);
+  }
+  #submit-btn:disabled:hover {
+    background-color: var(--disable-bg);
+    color: var(--disable-font);
+  }
+
+  #submit-btn:hover {
+    background-color: var(--black);
+    color: var(--grean);
+  }
+
+  .error-visible {
+    box-shadow: 0px 0px 15px 0px var(--yellown);
+    border: 2px solid var(--yellow);
+  }
+
+  .not-error-visible {
+    box-shadow: 0px 0px 15px 0px var(--grean);
+    border: 2px solid var(--grean);
+  }
+}

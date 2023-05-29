@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "name": "Vegetable Fried Rice",
+    "src":"resources/menu-item/Vegetable Fried Rice.jpg",
+    "price": 300.00,
+    "key_word": ["Vegetable","Fried","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 2,
+    "name": "Egg Fried Rice",
+    "src":"resources/menu-item/Egg Fried Rice.jpg",
+    "price": 400.00,
+    "key_word": ["Egg","Fried","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 3,
+    "name": "Chicken Fried Rice",
+    "src":"resources/menu-item/Chicken Fried Rice.jpg",
+    "price": 500.00,
+    "key_word": ["Chicken","Fried","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 4,
+    "name": "Chicken Budgte Rice",
+    "src":"resources/menu-item/Chicken Budgte Rice.jpg",
+    "price": 350.00,
+    "key_word": ["Egg","Budgte","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 5,
+    "name": "Egg Mixed Chicken Fried Rice",
+    "src":"resources/menu-item/Egg Mixed Chicken Fried Rice.jpg",
+    "price": 650.00,
+    "key_word": ["Egg","Mixed","Chicken","Fried","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 6,
+    "name": "Boiled Vegetable With Chicken",
+    "src":"resources/menu-item/Boiled Vegetable With Chicken.jpg",
+    "price": 350.00,
+    "key_word": ["Boiled","Vegetable","Chicken"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 7,
+    "name": "Boiled Vegetable",
+    "src":"resources/menu-item/Boiled Vegetable.jpg",
+    "price": 300.00,
+    "key_word": ["Boiled","Vegetable"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 8,
+    "name": "Rice & Curry (Veg)",
+    "src":"resources/menu-item/Rice & Curry (Veg).jpg",
+    "price": 400.00,
+    "key_word": ["Rice","Curry","vegetable"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 9,
+    "name": "Egg Noodles",
+    "src":"resources/menu-item/Egg Noodles.jpg",
+    "price": 280.00,
+    "key_word": ["Egg","Noodles"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 10,
+    "name": "Chicken Noodles",
+    "src":"resources/menu-item/Chicken Noodles.jpg",
+    "price": 350.00,
+    "key_word": ["Chicken","Noodles"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 11,
+    "name": "Rice & Curry (Chicken)",
+    "src":"resources/menu-item/Rice & Curry (Chicken).jpg",
+    "price": 650.00,
+    "key_word": ["Curry","Chicken","Rice"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 12,
+    "name": "Sunquick Orange",
+    "src":"resources/menu-item/Sunquick Orange.jpg",
+    "price": 50.00,
+    "key_word": ["Sunquick","Orange"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 13,
+    "name": "Tea",
+    "src":"resources/menu-item/Tea.jpg",
+    "price": 40.00,
+    "key_word": ["Tea","cup of tea"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 14,
+    "name": "Green Tea",
+    "src":"resources/menu-item/Green Tea.jpg",
+    "price": 50.00,
+    "key_word": ["Green","Tea"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 15,
+    "name": "Milk Tea",
+    "src":"resources/menu-item/Milk Tea.jpg",
+    "price": 130.00,
+    "key_word": ["Milk","Tea"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 16,
+    "name": "Coffee",
+    "src":"resources/menu-item/Coffee.jpg",
+    "price": 75.00,
+    "key_word": ["Coffee","cup of coffee"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 17,
+    "name": "Milk Coffee (Hot)",
+    "src":"resources/menu-item/Milk Coffee (Hot).jpg",
+    "price": 150.00,
+    "key_word": ["Milk","Coffee","Hot"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 18,
+    "name": "Vanila Milk Shake",
+    "src":"resources/menu-item/Vanila Milk Shake.jpg",
+    "price": 180.00,
+    "key_word": ["Vanila","Milk","Shake"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 19,
+    "name": "Choco Milk Shake",
+    "src":"resources/menu-item/Choco Milk Shake.jpg",
+    "price": 200.00,
+    "key_word": ["Choco","Milk","Shake"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 20,
+    "name": "Strawberry Milk Shake",
+    "src":"resources/menu-item/Strawberry Milk Shake.jpg",
+    "price": 200.00,
+    "key_word": ["Strawberry","Milk","Shake"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 21,
+    "name": "Iced Coffee",
+    "src":"resources/menu-item/Iced Coffee.jpg",
+    "price": 150.00,
+    "key_word": ["Iced","Coffee"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 22,
+    "name": "Lemon Mojito",
+    "src":"resources/menu-item/Lemon Mojito.jpg",
+    "price": 150.00,
+    "key_word": ["Lemon","Mojito"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 23,
+    "name": "Chicken Burger",
+    "src":"resources/menu-item/Chicken Burger.jpg",
+    "price": 200.00,
+    "key_word": ["Chicken","Burger"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 24,
+    "name": "Chicken Burger + Cheese",
+    "src":"resources/menu-item/Chicken Burger + Cheese.jpg",
+    "price": 250.00,
+    "key_word": ["Chicken","Burger","Cheese"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 25,
+    "name": "Crispy Chicken Burger",
+    "src":"resources/menu-item/Crispy Chicken Burger.jpg",
+    "price": 280.00,
+    "key_word": ["Crispy","Chicken","Burger"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 26,
+    "name": "Cupcakes (Coffee Cake)",
+    "src":"resources/menu-item/Cupcakes (Coffee Cake).jpg",
+    "price": 150.00,
+    "key_word": ["Cupcakes","Coffee","Cake"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 27,
+    "name": "Yogurt",
+    "src":"resources/menu-item/Yogurt.jpg",
+    "price": 80.00,
+    "key_word": ["Yogurt","other"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  },
+  {
+    "id": 28,
+    "name": "Chicken Noodls Soup",
+    "src":"resources/menu-item/Chicken Noodls Soup.jpg",
+    "price": 150.00,
+    "key_word": ["Chicken","Noodls","Soup"],
+    "information": {
+        "sold": 100,
+        "description": ""
+    } 
+  }
+]
