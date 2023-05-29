@@ -146,6 +146,7 @@ function generateNotification() {
 
   const image = document.createElement("img");
   image.src = imageSources[currentIndex]; // Set the source from the array
+  image.alt = "Notification";
   currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
 
   const bar = document.createElement("div");
