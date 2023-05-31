@@ -145,8 +145,18 @@ function generateNotification() {
   container.id = "notification-container";
 
   const image = document.createElement("img");
-  image.src = imageSources[currentIndex]; // Set the source from the array
   image.alt = "Notification";
+
+  image.addEventListener("load", () => {
+    container.style.display = "block";
+  });
+
+  image.addEventListener("error", () => {
+    // Handle image loading error, e.g., display a default image or show an error message
+    console.log("Error loading image");
+  });
+
+  image.src = imageSources[currentIndex]; // Set the source from the array
   currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
 
   const bar = document.createElement("div");
@@ -170,12 +180,11 @@ function generateNotification() {
 
   document.body.appendChild(container);
 
-  container.style.display = "block";
-
   setTimeout(() => {
     container.remove();
-  }, 60000);
+  }, 15000);
 }
 
 // Generate notification every 0.5 minutes
-setInterval(generateNotification, 60000);
+setInterval(generateNotification, 30000);
+
