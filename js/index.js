@@ -128,14 +128,14 @@ window.addEventListener("scroll", () => {
 });
 
 const imageSources = [
-  "resources/notification/1.jpg",
-  "resources/notification/2.jpg",
-  "resources/notification/5.jpg",
-  "resources/notification/7.jpg",
-  "resources/notification/10.jpg",
-  "resources/notification/11.jpg",
-  "resources/notification/13.jpg",
-  "resources/notification/14.jpg"
+  "resources/Notification/1.jpg",
+  "resources/Notification/2.jpg",
+  "resources/Notification/5.jpg",
+  "resources/Notification/7.jpg",
+  "resources/Notification/10.jpg",
+  "resources/Notification/11.jpg",
+  "resources/Notification/13.jpg",
+  "resources/Notification/14.jpg"
 ];
 
 let currentIndex = 0; // Index to keep track of the current image source
