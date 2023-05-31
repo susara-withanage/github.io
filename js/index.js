@@ -147,7 +147,7 @@ function generateNotification() {
   const image = document.createElement("img");
   image.alt = "Notification";
   
-  image.src = "resources/notification/14.jpg"; // imageSources[currentIndex]; // Set the source from the array
+  image.src = imageSources[currentIndex]; // Set the source from the array
   currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
   
   image.addEventListener("load", () => {
