@@ -135,7 +135,7 @@ const imageSources = [
   "resources/notification/10.jpg",
   "resources/notification/11.jpg",
   "resources/notification/13.jpg",
-  "resources/notification/14.jpg",
+  "resources/notification/14.jpg"
 ];
 
 let currentIndex = 0; // Index to keep track of the current image source
