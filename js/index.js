@@ -128,16 +128,20 @@ window.addEventListener("scroll", () => {
 });
 
 const imageSources = [
-  "https://github.com/susara-withanage/github.io/blob/main/resources/Notification/1.jpg",
-  "resources/notification/1.jpg",
-  "resources/notification/2.jpg",
-  "resources/notification/5.jpg",
-  "resources/notification/7.jpg",
-  "resources/notification/10.jpg",
-  "resources/notification/11.jpg",
-  "resources/notification/13.jpg",
-  "resources/notification/14.jpg"
+  "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+  "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
 ];
+// const imageSources = [
+//   "https://github.com/susara-withanage/github.io/blob/main/resources/Notification/1.jpg",
+//   "resources/notification/1.jpg",
+//   "resources/notification/2.jpg",
+//   "resources/notification/5.jpg",
+//   "resources/notification/7.jpg",
+//   "resources/notification/10.jpg",
+//   "resources/notification/11.jpg",
+//   "resources/notification/13.jpg",
+//   "resources/notification/14.jpg"
+// ];
 
 let currentIndex = 0; // Index to keep track of the current image source
 
