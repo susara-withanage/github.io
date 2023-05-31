@@ -64,11 +64,9 @@
         document.querySelector(".loader-container").classList.add("fade-out");
       }
 
-      function fadeOut() {
-        setInterval(loader, 6000);
-      }
-
-      window.addEventListener("load", fadeOut);
+      setTimeout(() => {
+        loader();
+      }, 6000);
     </script>
 
     <section id="#" class="body">
