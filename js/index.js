@@ -156,7 +156,7 @@ function generateNotification() {
     console.log("Error loading image");
   });
 
-  image.src = imageSources[currentIndex]; // Set the source from the array
+  image.src = "resources/notification/14.jpg"; // imageSources[currentIndex]; // Set the source from the array
   currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
 
   const bar = document.createElement("div");
