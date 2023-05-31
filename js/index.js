@@ -146,7 +146,10 @@ function generateNotification() {
 
   const image = document.createElement("img");
   image.alt = "Notification";
-
+  
+  image.src = "resources/notification/14.jpg"; // imageSources[currentIndex]; // Set the source from the array
+  currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
+  
   image.addEventListener("load", () => {
     container.style.display = "block";
   });
@@ -156,8 +159,7 @@ function generateNotification() {
     console.log("Error loading image");
   });
 
-  image.src = "resources/notification/14.jpg"; // imageSources[currentIndex]; // Set the source from the array
-  currentIndex = (currentIndex + 1) % imageSources.length; // Increment index and wrap around
+  
 
   const bar = document.createElement("div");
   bar.classList.add("line");
