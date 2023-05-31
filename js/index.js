@@ -128,6 +128,7 @@ window.addEventListener("scroll", () => {
 });
 
 const imageSources = [
+  "https://github.com/susara-withanage/github.io/blob/main/resources/Notification/1.jpg",
   "resources/notification/1.jpg",
   "resources/notification/2.jpg",
   "resources/notification/5.jpg",
