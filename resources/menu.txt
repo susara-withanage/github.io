@@ -37,7 +37,7 @@
     "name": "Chicken Budgte Rice",
     "src":"resources/menu-item/Chicken Budgte Rice.jpg",
     "price": 350.00,
-    "key_word": ["Egg","Budgte","Rice""Chicken Budgte Rice","Fried Rice","Budgte Rice"],
+    "key_word": ["Egg","Budgte","Rice","Chicken Budgte Rice","Fried Rice","Budgte Rice"],
     "information": {
         "sold": 100,
         "description": ""
